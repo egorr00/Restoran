@@ -1,0 +1,18 @@
+H1{
+    font-style: italic;
+    text-align: center;
+    font-size: 130px;
+}
+body{
+    background-color: brown;
+}
+p{
+    text-align: right;
+    font-size: 20px;
+    font-style: initial;
+}
+.main_image {
+   width: 480px;
+   height: auto;
+   object-fit: cover;
+}
