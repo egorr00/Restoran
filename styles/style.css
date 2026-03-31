@@ -6,13 +6,12 @@ h1{
 body{
     background-color: brown;
     height: 100vh;
-    font-family: "Open Sans", sans-serif;
+    font-family: "Montserrat", sans-serif;
     font-optical-sizing: auto;
-    font-weight: 400;
+    font-weight: 200;
     font-style: normal;
-    font-variation-settings:
-      "wdth" 100;
 }
+
 p{
     text-align: right;
     font-size: 20px;
@@ -86,6 +85,38 @@ h2{
     background-color: rgb(146, 34, 34);
 }
  
+.section_menu {
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+}
 
+.card_menu {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    width: 250px;
+    height: 450px;
+    border-radius: 15px;
+    background-color: rgb(112, 26, 26);
+    border: 1px solid rgb(97, 21, 21);
+    color: #fff;
+}
 
+.card_menu_img {
+    height: 150px;
+    object-fit: cover;
+}
 
+.card_menu_title {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.card_menu_fat {
+    font-size: 10px;
+}
+
+.card_menu_description {
+    font-size: 15px;
+}
