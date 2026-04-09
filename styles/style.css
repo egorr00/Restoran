@@ -147,3 +147,125 @@ h2{
     text-transform: uppercase;
     letter-spacing: 1px;
 }
+:root {
+    --primary-orange: #ff9a76;
+    --soft-yellow: #fff3e0;
+    --dark-text: #4a4a4a;
+    --accent-green: #81b214;
+}
+
+
+
+header {
+    background: linear-gradient(135deg, #ff9a76 0%, #f9d189 100%);
+    color: white;
+    padding: 60px 20px;
+    text-align: center;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+}
+
+h1 {
+    font-family: 'Playfair Display', serif;
+    font-size: 3rem;
+    margin: 0;
+    letter-spacing: 1px;
+}
+
+.container {
+    max-width: 900px;
+    margin: -40px auto 40px;
+    background: white;
+    padding: 40px;
+    border-radius: 15px;
+    box-shadow: 0 10px 30px rgba(0,0,0,0.05);
+}
+
+.recipe-meta {
+    display: flex;
+    justify-content: space-around;
+    border-bottom: 2px solid var(--soft-yellow);
+    padding-bottom: 20px;
+    margin-bottom: 30px;
+    font-weight: bold;
+    color: var(--primary-orange);
+}
+
+.main-image {
+    width: 100%;
+    height: 400px;
+    object-fit: cover;
+    border-radius: 10px;
+    margin-bottom: 30px;
+    background-color: #eee; /* Заглушка, если фото не подгрузится */
+}
+
+h2 {
+    color: var(--primary-orange);
+    border-left: 5px solid var(--primary-orange);
+    padding-left: 15px;
+    margin-top: 40px;
+}
+
+.ingredients-list {
+    list-style: none;
+    padding: 0;
+}
+
+.ingredients-list li {
+    padding: 10px 0;
+    border-bottom: 1px solid #f0f0f0;
+}
+
+.ingredients-list li:before {
+    content: "✦";
+    color: var(--primary-orange);
+    margin-right: 10px;
+}
+
+.step {
+    margin-bottom: 25px;
+}
+
+.step-number {
+    font-weight: bold;
+    color: white;
+    background: var(--primary-orange);
+    padding: 2px 10px;
+    border-radius: 50%;
+    margin-right: 10px;
+}
+
+
+.reviews-section {
+    margin-top: 60px;
+    background: var(--soft-yellow);
+    padding: 30px;
+    border-radius: 15px;
+}
+
+.review-card {
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.02);
+}
+
+.reviewer-name {
+    font-weight: bold;
+    color: #d35400;
+    display: block;
+    margin-bottom: 5px;
+}
+
+.stars {
+    color: #f1c40f;
+    margin-bottom: 10px;
+}
+
+footer {
+    text-align: center;
+    padding: 40px;
+    color: #999;
+    font-size: 0.9rem;
+}
