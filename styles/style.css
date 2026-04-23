@@ -276,13 +276,7 @@ footer {
     --accent-orange: #ff9800;
 }
 
-body {
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    background-color: #f0f2f5;
-    display: flex;
-    justify-content: center;
-    padding: 40px;
-}
+
 
 .card {
     background: white;
