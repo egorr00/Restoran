@@ -1,0 +1,130 @@
+
+
+body {
+    background-color: #0a0a0a;
+    color: #e0d5c0; 
+    font-family: 'Montserrat', sans-serif;
+    line-height: 1.6;
+}
+
+
+.hero {
+    height: 100vh;
+    width: 100%;
+    background: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)), 
+                url('https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?q=80&w=1170&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D') no-repeat center center/cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    padding: 40px 20px;
+    text-align: center;
+}
+
+
+.navbar {
+    position: absolute;
+    top: 0;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 50px;
+    background: linear-gradient(to bottom, rgba(0,0,0,0.8), transparent);
+}
+
+.logo img {
+    height: 60px;
+}
+
+.contact-info {
+    display: flex;
+    gap: 40px;
+    font-size: 13px;
+    color: #c5b358;
+}
+
+.info-item span {
+    display: block;
+    font-weight: 300;
+    opacity: 0.8;
+}
+
+
+.btn {
+    text-decoration: none;
+    padding: 12px 25px;
+    border-radius: 50px;
+    font-size: 14px;
+    transition: 0.3s;
+    margin-left: 10px;
+}
+
+.btn-outline {
+    border: 1px solid #c5b358;
+    color: #c5b358;
+}
+
+.btn-gold {
+    background-color: #c5b358;
+    color: #1a1a1a;
+    border: 1px solid #c5b358;
+}
+
+.btn:hover {
+    background-color: #e0d5c0;
+    color: #000;
+}
+
+
+.hero-content {
+    margin-top: 15vh;
+}
+
+.subtitle {
+    font-family: 'Playfair Display', serif;
+    font-style: italic;
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+h1 {
+    font-family: 'Playfair Display', serif;
+    font-size: 80px;
+    font-weight: 400;
+    letter-spacing: 2px;
+}
+
+
+.working-hours-section {
+    width: 100%;
+    max-width: 1200px;
+}
+
+.hours-title {
+    font-family: 'Playfair Display', serif;
+    font-style: italic;
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+
+.hours-grid {
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
+    gap: 10px;
+    border-top: 1px solid rgba(197, 179, 88, 0.3);
+    padding-top: 20px;
+}
+
+.day {
+    font-size: 12px;
+    text-transform: uppercase;
+}
+
+.day span {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 5px;
+    color: #c5b358;
+}
+
