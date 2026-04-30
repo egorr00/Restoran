@@ -1,130 +1,87 @@
-
-
-body {
-    background-color: #0a0a0a;
-    color: #e0d5c0; 
-    font-family: 'Montserrat', sans-serif;
-    line-height: 1.6;
+  
+   body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+   background-color: #000000;
+   
+    color: #333;
+    margin: 0;
+    padding: 20px;
 }
 
-
-.hero {
-    height: 100vh;
-    width: 100%;
-    background: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)), 
-                url('https://images.unsplash.com/photo-1519751138087-5bf79df62d5b?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MjB8fGJhY2tncm91bmR8ZW58MHx8MHx8fDA%3D') no-repeat center center/cover;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    align-items: center;
-    padding: 40px 20px;
+header {
     text-align: center;
-}
-
-
-.navbar {
-    position: absolute;
-    top: 0;
-    width: 100%;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 30px 50px;
-    background: linear-gradient(to bottom, rgba(0,0,0,0.8), transparent);
-}
-
-.logo img {
-    height: 60px;
-}
-
-.contact-info {
-    display: flex;
-    gap: 40px;
-    font-size: 13px;
-    color: #c5b358;
-}
-
-.info-item span {
-    display: block;
-    font-weight: 300;
-    opacity: 0.8;
-}
-
-
-.btn {
-    text-decoration: none;
-    padding: 12px 25px;
-    border-radius: 50px;
-    font-size: 14px;
-    transition: 0.3s;
-    margin-left: 10px;
-}
-
-.btn-outline {
-    border: 1px solid #c5b358;
-    color: #c5b358;
-}
-
-.btn-gold {
-    background-color: #c5b358;
-    color: #1a1a1a;
-    border: 1px solid #c5b358;
-}
-
-.btn:hover {
-    background-color: #e0d5c0;
-    color: #000;
-}
-
-
-.hero-content {
-    margin-top: 15vh;
-}
-
-.subtitle {
-    font-family: 'Playfair Display', serif;
-    font-style: italic;
-    font-size: 24px;
-    margin-bottom: 10px;
+    margin-bottom: 40px;
 }
 
 h1 {
-    font-family: 'Playfair Display', serif;
-    font-size: 80px;
-    font-weight: 400;
-    letter-spacing: 2px;
-}
-
-
-.working-hours-section {
-    width: 100%;
-    max-width: 1200px;
-}
-
-.hours-title {
-    font-family: 'Playfair Display', serif;
-    font-style: italic;
-    font-size: 20px;
-    margin-bottom: 20px;
-}
-
-.hours-grid {
-    display: grid;
-    grid-template-columns: repeat(7, 1fr);
-    gap: 10px;
-    border-top: 1px solid rgba(197, 179, 88, 0.3);
-    padding-top: 20px;
-}
-
-.day {
-    font-size: 12px;
+    color: #ffffff;
     text-transform: uppercase;
+    letter-spacing: 2px;
+    border-bottom: 2px solid #e67e22;
+    display: inline-block;
+    padding-bottom: 10px;
 }
 
-.day span {
-    display: block;
+.staff-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap: 25px;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+
+.staff-card {
+    background: #fff;
+    border-radius: 15px;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+    overflow: hidden;
+    transition: transform 0.3s ease;
+    text-align: center;
+}
+
+.staff-card:hover {
+    transform: translateY(-10px);
+}
+
+.staff-photo {
+    width: 100%;
+    height: 250px;
+    background-color: #ddd;
+    object-fit: cover;
+}
+
+.staff-info {
+    padding: 20px;
+}
+
+.staff-name {
+    font-size: 1.4em;
+    margin: 0 0 10px 0;
+    color: #2c3e50;
+}
+
+.staff-role {
     font-weight: bold;
-    margin-bottom: 5px;
-    color: #c5b358;
+    color: #e67e22;
+    text-transform: uppercase;
+    font-size: 0.9em;
+    margin-bottom: 15px;
+    display: block;
 }
 
+.staff-desc {
+    font-size: 0.95em;
+    color: #666;
+    line-height: 1.5;
+}
+
+
+.experience {
+    display: inline-block;
+    background: #ecf0f1;
+    padding: 5px 12px;
+    border-radius: 20px;
+    font-size: 0.8em;
+    margin-top: 15px;
+}
