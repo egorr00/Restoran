@@ -17,7 +17,7 @@ body {
     flex-direction: column;
     justify-content: space-between;
     align-items: center;
-    padding: 40px 20px;
+    padding: 40px 0;
     text-align: center;
 }
 
@@ -25,12 +25,13 @@ body {
 .navbar {
     position: absolute;
     top: 0;
-    width: 100%;
+    width: 90%;
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     align-items: center;
-    padding: 30px 50px;
+    padding: 30px 0;
     background: linear-gradient(to bottom, rgba(0,0,0,0.8), transparent);
+    gap:100px;
 }
 
 .logo img {
@@ -63,6 +64,7 @@ body {
 .btn-outline {
     border: 1px solid #c5b358;
     color: #c5b358;
+
 }
 
 .btn-gold {
@@ -127,4 +129,5 @@ h1 {
     margin-bottom: 5px;
     color: #c5b358;
 }
+
 
